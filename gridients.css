@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topbtncolor
+{
+background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+-webkit-background-clip: text;
+color: transparent;
+}
+.topbtnbgcolor
+{
+background: linear-gradient(90deg, #20D4FE 0%, #B722FF 100%);
+
+}
+#text-gradient {
+background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

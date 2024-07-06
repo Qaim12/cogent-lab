@@ -1,0 +1,99 @@
+/* ..............................css homescreen..............// */
+#text-gradient {
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#navdata ul li{
+    position: relative;
+}
+
+/* Apply the gradient class on hover */
+#navdata ul li:hover {
+    /* Apply the gradient color */
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+
+}
+
+#navdata ul li:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+}
+
+/* ...................................css for servicescreen............. */
+
+#text-gradient {
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#navdataService ul li{
+    position: relative;
+}
+
+/* Apply the gradient class on hover */
+#navdataService ul li:hover {
+    /* Apply the gradient color */
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+
+}
+
+#navdataService ul li:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+}
+ /* ....................................css for aboutusScreen............... */
+
+ #text-gradient {
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#navdataAboutus ul li{
+    position: relative;
+}
+
+/* Apply the gradient class on hover */
+#navdataAboutus ul li:hover {
+    /* Apply the gradient color */
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+
+}
+
+#navdataAboutus ul li:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: -webkit-linear-gradient(90deg, #20D4FE, #B722FF);
+}
+
+.Centered{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
